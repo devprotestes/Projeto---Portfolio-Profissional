@@ -1,0 +1,26 @@
+// Principal
+@import 'principal/conteudo';
+@import 'principal/navbar';
+@import 'principal/sociais';
+
+// Sobre
+@import 'sobre/sobremin';
+
+// Variaveis CSS
+@import 'variaveis';
+
+// Reset CSS
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6))
+  ,url('../imagens/imagem-fundo.jpeg');
+  color: $color-white;
+}

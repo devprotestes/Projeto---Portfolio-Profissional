@@ -1,0 +1,21 @@
+// navbar
+.navbar {
+  background: $color-dark !important;
+  border-bottom: $color-template solid 1px;
+
+  // Logo
+  &-brand {
+    font-family: 'Righteous', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    // text-transform: uppercase;
+    color: $color-template !important;
+  }
+}
+
+.nav-link {
+  color: $color-template !important;
+  &:hover {
+    color: $color-white !important;
+  }
+}

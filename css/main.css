@@ -1,0 +1,88 @@
+.conteudo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.conteudo-texto {
+  text-align: center;
+}
+.conteudo-principal {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+.conteudo-secundario {
+  font-size: 1rem;
+}
+
+.text-lg {
+  font-size: 4rem;
+}
+
+.span-color {
+  color: #b5c906;
+}
+
+.navbar {
+  background: #000 !important;
+  border-bottom: #b5c906 solid 1px;
+}
+.navbar-brand {
+  font-family: "Righteous", cursive;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #b5c906 !important;
+}
+
+.nav-link {
+  color: #b5c906 !important;
+}
+.nav-link:hover {
+  color: #fff !important;
+}
+
+.sociais {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 2px;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.sociais-link {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #b5c906;
+}
+.sociais-link:hover {
+  color: #fff !important;
+}
+
+.sobre {
+  margin-top: 10rem;
+}
+.sobre-conteudo {
+  text-align: center;
+  padding: 0 1rem;
+}
+.sobre-principal {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #b5c906;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../imagens/imagem-fundo.jpeg");
+  color: #fff;
+}
+
+/*# sourceMappingURL=main.css.map */
