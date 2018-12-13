@@ -1,14 +1,27 @@
 .sobre {
   margin-top: 10rem;
 
-  &-conteudo {
+  &_container {
     text-align: center;
     padding: 0 1rem;
   }
 
-  &-principal {
+  &_intro {
     font-size: 3rem;
+    font-weight: 700;
     text-transform: uppercase;
     color: $color-template;
+  }
+
+  &_info {
+    text-align: justify;
+    font-weight: 400;
+  }
+
+  &_avatar img {
+    width: auto;
+    height: 200px;
+    border-radius: 100%;
+    border: 2px solid $color-template;
   }
 }

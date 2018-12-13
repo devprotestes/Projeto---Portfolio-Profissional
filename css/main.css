@@ -62,14 +62,25 @@
 .sobre {
   margin-top: 10rem;
 }
-.sobre-conteudo {
+.sobre_container {
   text-align: center;
   padding: 0 1rem;
 }
-.sobre-principal {
+.sobre_intro {
   font-size: 3rem;
+  font-weight: 700;
   text-transform: uppercase;
   color: #b5c906;
+}
+.sobre_info {
+  text-align: justify;
+  font-weight: 400;
+}
+.sobre_avatar img {
+  width: auto;
+  height: 200px;
+  border-radius: 100%;
+  border: 2px solid #b5c906;
 }
 
 * {
