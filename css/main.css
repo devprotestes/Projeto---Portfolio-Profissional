@@ -4,14 +4,14 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.conteudo-texto {
+.conteudo_container {
   text-align: center;
 }
-.conteudo-principal {
+.conteudo_intro {
   font-size: 2.5rem;
   text-transform: uppercase;
 }
-.conteudo-secundario {
+.conteudo_subintro {
   font-size: 1rem;
 }
 
@@ -32,6 +32,7 @@
   font-size: 2rem;
   font-weight: bold;
   color: #b5c906 !important;
+  margin-left: 1rem;
 }
 
 .nav-link {
@@ -55,7 +56,7 @@
   color: #b5c906;
 }
 .sociais-link:hover {
-  color: #fff !important;
+  color: #1b90c7 !important;
 }
 
 .sobre {
