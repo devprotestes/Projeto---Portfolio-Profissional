@@ -1,5 +1,12 @@
 @import '../variaveis';
 
+.main {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6))
+  ,url('../imagens/imagem-fundo.jpeg');
+}
+
 .conteudo {
   position: absolute;
   top: 50%;

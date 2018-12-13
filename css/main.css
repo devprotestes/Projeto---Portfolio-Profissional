@@ -1,3 +1,9 @@
+.main {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../imagens/imagem-fundo.jpeg");
+}
+
 .conteudo {
   position: absolute;
   top: 50%;
@@ -20,23 +26,23 @@
 }
 
 .span-color {
-  color: #b5c906;
+  color: #FFCB05;
 }
 
 .navbar {
   background: #000 !important;
-  border-bottom: #b5c906 solid 1px;
+  border-bottom: #FFCB05 solid 1px;
 }
 .navbar-brand {
   font-family: "Righteous", cursive;
   font-size: 2rem;
   font-weight: bold;
-  color: #b5c906 !important;
+  color: #FFCB05 !important;
   margin-left: 1rem;
 }
 
 .nav-link {
-  color: #b5c906 !important;
+  color: #FFCB05 !important;
 }
 .nav-link:hover {
   color: #fff !important;
@@ -53,14 +59,17 @@
 .sociais-link {
   font-size: 2rem;
   margin-right: 1rem;
-  color: #b5c906;
+  color: #FFCB05;
 }
 .sociais-link:hover {
-  color: #1b90c7 !important;
+  color: #4AD9D9 !important;
 }
 
 .sobre {
-  margin-top: 10rem;
+  padding-top: 10rem;
+  width: 100%;
+  height: 100vh;
+  background: #333;
 }
 .sobre_container {
   text-align: center;
@@ -70,7 +79,7 @@
   font-size: 3rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #b5c906;
+  color: #FFCB05;
 }
 .sobre_info {
   text-align: justify;
@@ -80,7 +89,7 @@
   width: auto;
   height: 200px;
   border-radius: 100%;
-  border: 2px solid #b5c906;
+  border: 2px solid #FFCB05;
 }
 
 @media (min-width: 900px) {
@@ -109,7 +118,6 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../imagens/imagem-fundo.jpeg");
   color: #fff;
 }
 
