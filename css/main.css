@@ -66,7 +66,7 @@
   text-align: center;
   padding: 0 1rem;
 }
-.sobre_intro {
+.sobre_header {
   font-size: 3rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -83,6 +83,21 @@
   border: 2px solid #b5c906;
 }
 
+@media (min-width: 900px) {
+  .sobre_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+  .sobre_avatar img {
+    width: auto;
+    height: 300px;
+  }
+
+  .sociais {
+    width: 50%;
+  }
+}
 * {
   margin: 0;
   padding: 0;
