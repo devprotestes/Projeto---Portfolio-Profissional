@@ -3,10 +3,14 @@
 @import 'principal/navbar';
 @import 'principal/sociais';
 
+// Serviços
+@import 'servicos/servicos';
+
 // Sobre
 @import 'sobre/sobremin';
 
 // Variaveis CSS
+@import 'button';
 @import 'variaveis';
 
 // Reset CSS
@@ -20,7 +24,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 100%;
   height: 100vh;
-  color: $color-white;
+  //color: $color-white;
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6))
   ,url('../imagens/imagem-fundo.jpeg');
 }

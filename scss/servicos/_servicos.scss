@@ -1,0 +1,13 @@
+.servicos {
+  padding-top: 10rem;
+
+  &_header {
+    text-align: center;
+  }
+
+  &_intro {
+    font-size: 3rem;
+    color: $color-base;
+  }
+}
+
