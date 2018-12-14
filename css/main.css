@@ -1,3 +1,15 @@
+.contatos {
+  padding-top: 10rem;
+}
+.contatos_header {
+  text-align: center;
+}
+.contatos_intro {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #068587;
+}
+
 .conteudo {
   position: absolute;
   top: 50%;

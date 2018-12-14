@@ -1,0 +1,15 @@
+@import '../variaveis';
+
+.contatos {
+  padding-top: 10rem;
+
+  &_header {
+    text-align: center;
+  }
+
+  &_intro {
+    font-size: 3rem;
+    font-weight: bold;
+    color: $color-base;
+  }
+}
