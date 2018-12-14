@@ -2,7 +2,7 @@
   padding-top: 10rem;
   width: 100%;
   height: 100vh;
-  background: $background-color;
+  // background: $color-base2;
 
   &_container {
     text-align: center;
@@ -13,7 +13,7 @@
     font-size: 3rem;
     font-weight: 700;
     text-transform: uppercase;
-    color: $color-template;
+    color: $color-base;
   }
 
   &_info {
@@ -25,7 +25,14 @@
     width: auto;
     height: 200px;
     border-radius: 100%;
-    border: 2px solid $color-template;
+    border: 2px solid $color-base;
+  }
+
+  &_sociais {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
   }
 }
 
@@ -43,9 +50,13 @@
       height: 350px;
       margin-left: 3rem;
     }
-  }
 
-  .sociais {
-    width: 50%;
+    &_sociais {
+      width: 50%;
+      display: flex;
+      justify-content: flex-start;
+      padding-left: 1rem;
+      margin-top: 0;
+    }
   }
 }

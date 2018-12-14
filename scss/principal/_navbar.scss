@@ -1,7 +1,7 @@
 // navbar
 .navbar {
-  background: $color-dark !important;
-  border-bottom: $color-template solid 1px;
+  background-color: $color-dark !important;
+  border-bottom: $color-base solid 1px;
 
   // Logo
   &-brand {
@@ -9,13 +9,13 @@
     font-size: 2rem;
     font-weight: bold;
     // text-transform: uppercase;
-    color: $color-template !important;
+    color: $color-base !important;
     margin-left: 1rem;
   }
 }
 
 .nav-link {
-  color: $color-template !important;
+  color: $color-base !important;
   &:hover {
     color: $color-white !important;
   }

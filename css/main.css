@@ -1,9 +1,3 @@
-.main {
-  width: 100%;
-  height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../imagens/imagem-fundo.jpeg");
-}
-
 .conteudo {
   position: absolute;
   top: 50%;
@@ -14,35 +8,32 @@
   text-align: center;
 }
 .conteudo_intro {
-  font-size: 2.5rem;
+  font-size: 3rem;
+  font-weight: 700;
   text-transform: uppercase;
 }
 .conteudo_subintro {
-  font-size: 1rem;
-}
-
-.text-lg {
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 .span-color {
-  color: #FFCB05;
+  color: #068587;
 }
 
 .navbar {
-  background: #000 !important;
-  border-bottom: #FFCB05 solid 1px;
+  background-color: #000 !important;
+  border-bottom: #068587 solid 1px;
 }
 .navbar-brand {
   font-family: "Righteous", cursive;
   font-size: 2rem;
   font-weight: bold;
-  color: #FFCB05 !important;
+  color: #068587 !important;
   margin-left: 1rem;
 }
 
 .nav-link {
-  color: #FFCB05 !important;
+  color: #068587 !important;
 }
 .nav-link:hover {
   color: #fff !important;
@@ -52,14 +43,14 @@
   width: 100%;
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 2px;
-  margin-top: 1rem;
+  margin: 1rem auto;
   display: flex;
   justify-content: center;
 }
 .sociais-link {
   font-size: 2rem;
   margin-right: 1rem;
-  color: #FFCB05;
+  color: #068587;
 }
 .sociais-link:hover {
   color: #4AD9D9 !important;
@@ -69,7 +60,6 @@
   padding-top: 10rem;
   width: 100%;
   height: 100vh;
-  background: #333;
 }
 .sobre_container {
   text-align: center;
@@ -79,7 +69,7 @@
   font-size: 3rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #FFCB05;
+  color: #068587;
 }
 .sobre_info {
   text-align: justify;
@@ -89,7 +79,13 @@
   width: auto;
   height: 200px;
   border-radius: 100%;
-  border: 2px solid #FFCB05;
+  border: 2px solid #068587;
+}
+.sobre_sociais {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
 }
 
 @media (min-width: 900px) {
@@ -103,9 +99,12 @@
     height: 350px;
     margin-left: 3rem;
   }
-
-  .sociais {
+  .sobre_sociais {
     width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 1rem;
+    margin-top: 0;
   }
 }
 * {
@@ -119,6 +118,7 @@ body {
   font-size: 100%;
   height: 100vh;
   color: #fff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../imagens/imagem-fundo.jpeg");
 }
 
 /*# sourceMappingURL=main.css.map */
